@@ -6,9 +6,9 @@
 
 ----
 
-![Swiss RailRoad Map](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/SwissMap.png)
+![Swiss RailRoad Map](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/img/SwissMap.png)
 
-![Swiss RailRoad Schema](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/SwissMap.png)
+![Swiss RailRoad Schema](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/img/SwissSchema.png)
 
 Кількість вершин: 19 <br>
 Кількість ребер: 23 <br>
@@ -33,7 +33,7 @@ Chur: 3 <br>
 St.Gallen: 2 <br>
 Zurich: 2 <br>
 
-![Graph](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/Завдання_1.png)
+![Graph](https://github.com/sergiishevchenko/goit-algo-hw-06/blob/main/img/Завдання_1.png)
 
 
 ### Завдання 2
