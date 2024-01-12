@@ -4,11 +4,10 @@
 
 Створіть граф за допомогою бібліотеки networkX для моделювання певної реальної мережі (наприклад, транспортної мережі міста, соціальної мережі, інтернет-топології).
 
+----
+
 Кількість вершин: 19 <br>
 Кількість ребер: 23 <br>
-
-======================================================
-
 Ступінь кожної вершини: <br>
 Geneve: 1 <br>
 Lausanne: 4 <br>
@@ -35,7 +34,7 @@ Zurich: 2 <br>
 Напишіть програму, яка використовує алгоритми DFS і BFS для знаходження шляхів у графі, який було розроблено у першому завданні.
 Далі порівняйте результати виконання обох алгоритмів для цього графа, висвітлить різницю в отриманих шляхах. Поясніть, чому шляхи для алгоритмів саме такі.
 
-======================================================
+-----
 
 Начальна станція - "Geneve", остання станція - "St.Gallen". <br>
 
@@ -44,11 +43,12 @@ Zurich: 2 <br>
 ### BFS <br>
 [['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Basel', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Basel', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Neuchatel', 'Basel', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Neuchatel', 'Basel', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Thun', 'Interlaken', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Thun', 'Interlaken', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Thun', 'Interlaken', 'Disentis', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Basel', 'Luzern', 'Interlaken', 'Disentis', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Bern', 'Thun', 'Interlaken', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Bern', 'Thun', 'Interlaken', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Bern', 'Thun', 'Interlaken', 'Disentis', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Neuchatel', 'Basel', 'Luzern', 'Interlaken', 'Disentis', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Friburg', 'Bern', 'Thun', 'Interlaken', 'Disentis', 'Chur', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Interlaken', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Interlaken', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Chur', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Yverdon-les-Bains', 'Neuchatel', 'Bern', 'Thun', 'Interlaken', 'Disentis', 'Chur', 'Luzern', 'Zurich', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Interlaken', 'Thun', 'Bern', 'Neuchatel', 'Basel', 'Luzern', 'Chur', 'St.Gallen'], ['Geneve', 'Lausanne', 'Montreux', 'Mantigny', 'Sion', 'Brig', 'Disentis', 'Interlaken', 'Thun', 'Bern', 'Neuchatel', 'Basel', 'Luzern', 'Zurich', 'St.Gallen']] <br>
 
+### Висновки
+
+Як видно з результатів розрахунків отримані шляхи, які будують два алгоритми DFS (Depth-First Search) та BFS (Breadth-First Search) , відрізняються один від одного. Пов'язано це з тим, що DFS вибирає один із шляхів і досліджує його глибше, перш ніж переходити до інших шляхів, а BFS навпаки досліджує всі можливі шляхи на одному рівні, перш ніж переходити на наступний рівень.
+
 ### Завдання 3
 
 Реалізуйте алгоритм Дейкстри для знаходження найкоротшого шляху в розробленому графі: додайте у граф ваги до ребер та знайдіть найкоротший шлях між всіма вершинами графа.
-
-
-## Висновки
 
 
